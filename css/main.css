@@ -56,10 +56,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: sans-serif
+}
 
+.container {
+    max-width: 100%;
+    margin: auto;
+}
 
-
-
+img {
+    width: 100%;
+    height: auto;    
+}
 
 
 
