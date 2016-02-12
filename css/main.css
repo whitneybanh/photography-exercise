@@ -148,37 +148,6 @@ footer{
     font-size: 40px;
 }
 
-
-
-/* CSS Contact Page */
-* {
-    box-sizing: border-box;
-}
-#contact-info {
-    width: 210px;
-    text-align: left;
-    border: 1px solid black;
-}
-
-
-#map {
-   border: 1px solid black; 
-    padding: 0;
-}
-
-.register-today {
-    border: 1px solid black;
-}
-
-.register-today h3 {
-    color: rgb(85, 85, 85);
-}
-
-.register-today h3 .register-color {
-    color:
-}
-
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
