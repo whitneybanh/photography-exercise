@@ -145,7 +145,7 @@ footer{
 }
 
 .icons a i{
-    font-size: 40px;
+    font-size: 41px;
 }
 
 <<<<<<< HEAD
@@ -163,7 +163,7 @@ footer{
 
 
 #map {
-   border: 1px solid black; 
+   border: 1px solid black;
     padding: 0;
 }
 
@@ -179,6 +179,7 @@ footer{
 
 =======
 >>>>>>> origin/master
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
