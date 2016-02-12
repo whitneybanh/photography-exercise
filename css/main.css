@@ -56,11 +56,50 @@ textarea {
    Author's custom styles
    ========================================================================== */
 #container{
-    width: 960px;
-    margin: auto;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-header{
+ul.gallery-container {
+  margin: 0 auto;
+  list-style: none;
+}
+
+ul.gallery-container li {
+  display: inline-block;
+  padding: 20px 20px;
+  font-size: 12px;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+ul.gallery-container li img {
+  max-width: 400px;
+  height: auto;
+  margin: 0 0 20px;
+}
+
+ul.gallery-container li h2 {
+  font-size: 1.1em;
+  color: #000;
+}
+
+ul.gallery-container li p {
+  font-size: 1.1em;
+  max-width: 400px;
+}
+
+ul.gallery-container-columns-2 li {
+	width: 50%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.gallery-container-columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+
+header {
     background: rgba(55,38,12,0.1);
     max-width: 960px;
     height: auto;
@@ -70,7 +109,7 @@ header{
 }
 
 h1{
-    font-size: 2.5em;
+  font-size: 2.5em;
 	font-weight: 900;
 	text-align: center;
 	text-shadow: 4px 4px 50px blue;
@@ -98,12 +137,6 @@ nav ul li a{
     text-decoration: none;
     padding: 5px 15px 10px 15px;
 }
-img {
-  width: 400px;
-  height: auto;
-  display: block;
-}
-
 
 footer{
     background: #A07467;
